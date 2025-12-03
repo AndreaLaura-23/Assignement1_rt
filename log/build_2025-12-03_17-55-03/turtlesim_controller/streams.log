@@ -1,0 +1,22 @@
+[0.976s] Invoking command in '/root/ros2_ws/src/turtlesim_controller': PYTHONPATH=/root/ros2_ws/build/turtlesim_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/turtlesim_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_controller build --build-base /root/ros2_ws/build/turtlesim_controller/build install --record /root/ros2_ws/build/turtlesim_controller/install.log --single-version-externally-managed install_data
+[1.186s] running egg_info
+[1.198s] writing ../../build/turtlesim_controller/turtlesim_controller.egg-info/PKG-INFO
+[1.198s] writing dependency_links to ../../build/turtlesim_controller/turtlesim_controller.egg-info/dependency_links.txt
+[1.199s] writing entry points to ../../build/turtlesim_controller/turtlesim_controller.egg-info/entry_points.txt
+[1.199s] writing requirements to ../../build/turtlesim_controller/turtlesim_controller.egg-info/requires.txt
+[1.199s] writing top-level names to ../../build/turtlesim_controller/turtlesim_controller.egg-info/top_level.txt
+[1.234s] reading manifest file '../../build/turtlesim_controller/turtlesim_controller.egg-info/SOURCES.txt'
+[1.235s] writing manifest file '../../build/turtlesim_controller/turtlesim_controller.egg-info/SOURCES.txt'
+[1.235s] running build
+[1.235s] running build_py
+[1.236s] running install
+[1.241s] running install_lib
+[1.257s] running install_data
+[1.257s] running install_egg_info
+[1.269s] removing '/root/ros2_ws/install/turtlesim_controller/lib/python3.12/site-packages/turtlesim_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[1.269s] Copying ../../build/turtlesim_controller/turtlesim_controller.egg-info to /root/ros2_ws/install/turtlesim_controller/lib/python3.12/site-packages/turtlesim_controller-0.0.0-py3.12.egg-info
+[1.271s] running install_scripts
+[1.380s] Installing Subscriber script to /root/ros2_ws/install/turtlesim_controller/lib/turtlesim_controller
+[1.381s] Installing WallBouncer script to /root/ros2_ws/install/turtlesim_controller/lib/turtlesim_controller
+[1.382s] writing list of installed files to '/root/ros2_ws/build/turtlesim_controller/install.log'
+[1.428s] Invoked command in '/root/ros2_ws/src/turtlesim_controller' returned '0': PYTHONPATH=/root/ros2_ws/build/turtlesim_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/turtlesim_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_controller build --build-base /root/ros2_ws/build/turtlesim_controller/build install --record /root/ros2_ws/build/turtlesim_controller/install.log --single-version-externally-managed install_data

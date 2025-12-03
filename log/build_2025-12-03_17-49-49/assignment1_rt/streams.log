@@ -1,0 +1,44 @@
+[1.428s] Invoking command in '/root/ros2_ws/build/assignment1_rt': PYTHONPATH=/root/ros2_ws/build/assignment1_rt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros2_ws/build/assignment1_rt/build
+[1.702s] running develop
+[1.847s] Removing /root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages/assignment1-rt.egg-link (link to .)
+[1.891s] Invoked command in '/root/ros2_ws/build/assignment1_rt' returned '0': PYTHONPATH=/root/ros2_ws/build/assignment1_rt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros2_ws/build/assignment1_rt/build
+[1.892s] Invoking command in '/root/ros2_ws/src/assignment1_rt': PYTHONPATH=/root/ros2_ws/build/assignment1_rt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assignment1_rt build --build-base /root/ros2_ws/build/assignment1_rt/build install --record /root/ros2_ws/build/assignment1_rt/install.log --single-version-externally-managed install_data --force
+[2.095s] running egg_info
+[2.108s] writing ../../build/assignment1_rt/assignment1_rt.egg-info/PKG-INFO
+[2.110s] writing dependency_links to ../../build/assignment1_rt/assignment1_rt.egg-info/dependency_links.txt
+[2.111s] writing entry points to ../../build/assignment1_rt/assignment1_rt.egg-info/entry_points.txt
+[2.111s] writing requirements to ../../build/assignment1_rt/assignment1_rt.egg-info/requires.txt
+[2.111s] writing top-level names to ../../build/assignment1_rt/assignment1_rt.egg-info/top_level.txt
+[2.139s] reading manifest file '../../build/assignment1_rt/assignment1_rt.egg-info/SOURCES.txt'
+[2.141s] writing manifest file '../../build/assignment1_rt/assignment1_rt.egg-info/SOURCES.txt'
+[2.142s] running build
+[2.142s] running build_py
+[2.143s] creating /root/ros2_ws/build/assignment1_rt/build
+[2.143s] creating /root/ros2_ws/build/assignment1_rt/build/lib
+[2.144s] creating /root/ros2_ws/build/assignment1_rt/build/lib/assignment1_rt
+[2.144s] copying assignment1_rt/__init__.py -> /root/ros2_ws/build/assignment1_rt/build/lib/assignment1_rt
+[2.144s] copying assignment1_rt/node2.py -> /root/ros2_ws/build/assignment1_rt/build/lib/assignment1_rt
+[2.145s] copying assignment1_rt/turtle_spawn.py -> /root/ros2_ws/build/assignment1_rt/build/lib/assignment1_rt
+[2.145s] copying assignment1_rt/node1.py -> /root/ros2_ws/build/assignment1_rt/build/lib/assignment1_rt
+[2.145s] running install
+[2.150s] running install_lib
+[2.161s] creating /root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages/assignment1_rt
+[2.161s] copying /root/ros2_ws/build/assignment1_rt/build/lib/assignment1_rt/__init__.py -> /root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages/assignment1_rt
+[2.162s] copying /root/ros2_ws/build/assignment1_rt/build/lib/assignment1_rt/node2.py -> /root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages/assignment1_rt
+[2.162s] copying /root/ros2_ws/build/assignment1_rt/build/lib/assignment1_rt/turtle_spawn.py -> /root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages/assignment1_rt
+[2.162s] copying /root/ros2_ws/build/assignment1_rt/build/lib/assignment1_rt/node1.py -> /root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages/assignment1_rt
+[2.163s] byte-compiling /root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages/assignment1_rt/__init__.py to __init__.cpython-312.pyc
+[2.164s] byte-compiling /root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages/assignment1_rt/node2.py to node2.cpython-312.pyc
+[2.165s] byte-compiling /root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages/assignment1_rt/turtle_spawn.py to turtle_spawn.cpython-312.pyc
+[2.165s] byte-compiling /root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages/assignment1_rt/node1.py to node1.cpython-312.pyc
+[2.166s] running install_data
+[2.166s] copying resource/assignment1_rt -> /root/ros2_ws/install/assignment1_rt/share/ament_index/resource_index/packages
+[2.166s] copying package.xml -> /root/ros2_ws/install/assignment1_rt/share/assignment1_rt
+[2.166s] running install_egg_info
+[2.182s] Copying ../../build/assignment1_rt/assignment1_rt.egg-info to /root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages/assignment1_rt-0.0.0-py3.12.egg-info
+[2.183s] running install_scripts
+[2.311s] Installing node1 script to /root/ros2_ws/install/assignment1_rt/lib/assignment1_rt
+[2.311s] Installing node2 script to /root/ros2_ws/install/assignment1_rt/lib/assignment1_rt
+[2.311s] Installing turtle_spawn script to /root/ros2_ws/install/assignment1_rt/lib/assignment1_rt
+[2.311s] writing list of installed files to '/root/ros2_ws/build/assignment1_rt/install.log'
+[2.363s] Invoked command in '/root/ros2_ws/src/assignment1_rt' returned '0': PYTHONPATH=/root/ros2_ws/build/assignment1_rt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assignment1_rt build --build-base /root/ros2_ws/build/assignment1_rt/build install --record /root/ros2_ws/build/assignment1_rt/install.log --single-version-externally-managed install_data --force

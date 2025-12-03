@@ -1,0 +1,41 @@
+[1.414s] Invoking command in '/root/ros2_ws/src/first_package_py': PYTHONPATH=/root/ros2_ws/build/first_package_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/first_package_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_package_py build --build-base /root/ros2_ws/build/first_package_py/build install --record /root/ros2_ws/build/first_package_py/install.log --single-version-externally-managed install_data
+[1.657s] running egg_info
+[1.657s] creating ../../build/first_package_py/first_package_py.egg-info
+[1.674s] writing ../../build/first_package_py/first_package_py.egg-info/PKG-INFO
+[1.674s] writing dependency_links to ../../build/first_package_py/first_package_py.egg-info/dependency_links.txt
+[1.675s] writing entry points to ../../build/first_package_py/first_package_py.egg-info/entry_points.txt
+[1.675s] writing requirements to ../../build/first_package_py/first_package_py.egg-info/requires.txt
+[1.675s] writing top-level names to ../../build/first_package_py/first_package_py.egg-info/top_level.txt
+[1.675s] writing manifest file '../../build/first_package_py/first_package_py.egg-info/SOURCES.txt'
+[1.705s] reading manifest file '../../build/first_package_py/first_package_py.egg-info/SOURCES.txt'
+[1.705s] writing manifest file '../../build/first_package_py/first_package_py.egg-info/SOURCES.txt'
+[1.706s] running build
+[1.706s] running build_py
+[1.706s] creating /root/ros2_ws/build/first_package_py/build
+[1.707s] creating /root/ros2_ws/build/first_package_py/build/lib
+[1.707s] creating /root/ros2_ws/build/first_package_py/build/lib/first_package_py
+[1.707s] copying first_package_py/Subscriber.py -> /root/ros2_ws/build/first_package_py/build/lib/first_package_py
+[1.708s] copying first_package_py/__init__.py -> /root/ros2_ws/build/first_package_py/build/lib/first_package_py
+[1.708s] copying first_package_py/Publisher.py -> /root/ros2_ws/build/first_package_py/build/lib/first_package_py
+[1.710s] running install
+[1.715s] running install_lib
+[1.732s] creating /root/ros2_ws/install/first_package_py/lib/python3.12/site-packages/first_package_py
+[1.732s] copying /root/ros2_ws/build/first_package_py/build/lib/first_package_py/Subscriber.py -> /root/ros2_ws/install/first_package_py/lib/python3.12/site-packages/first_package_py
+[1.732s] copying /root/ros2_ws/build/first_package_py/build/lib/first_package_py/__init__.py -> /root/ros2_ws/install/first_package_py/lib/python3.12/site-packages/first_package_py
+[1.732s] copying /root/ros2_ws/build/first_package_py/build/lib/first_package_py/Publisher.py -> /root/ros2_ws/install/first_package_py/lib/python3.12/site-packages/first_package_py
+[1.732s] byte-compiling /root/ros2_ws/install/first_package_py/lib/python3.12/site-packages/first_package_py/Subscriber.py to Subscriber.cpython-312.pyc
+[1.733s] byte-compiling /root/ros2_ws/install/first_package_py/lib/python3.12/site-packages/first_package_py/__init__.py to __init__.cpython-312.pyc
+[1.733s] byte-compiling /root/ros2_ws/install/first_package_py/lib/python3.12/site-packages/first_package_py/Publisher.py to Publisher.cpython-312.pyc
+[1.733s] running install_data
+[1.733s] creating /root/ros2_ws/install/first_package_py/share/ament_index
+[1.734s] creating /root/ros2_ws/install/first_package_py/share/ament_index/resource_index
+[1.734s] creating /root/ros2_ws/install/first_package_py/share/ament_index/resource_index/packages
+[1.734s] copying resource/first_package_py -> /root/ros2_ws/install/first_package_py/share/ament_index/resource_index/packages
+[1.734s] copying package.xml -> /root/ros2_ws/install/first_package_py/share/first_package_py
+[1.734s] running install_egg_info
+[1.750s] Copying ../../build/first_package_py/first_package_py.egg-info to /root/ros2_ws/install/first_package_py/lib/python3.12/site-packages/first_package_py-0.0.0-py3.12.egg-info
+[1.751s] running install_scripts
+[1.843s] Installing Publisher script to /root/ros2_ws/install/first_package_py/lib/first_package_py
+[1.844s] Installing Subscriber script to /root/ros2_ws/install/first_package_py/lib/first_package_py
+[1.844s] writing list of installed files to '/root/ros2_ws/build/first_package_py/install.log'
+[1.879s] Invoked command in '/root/ros2_ws/src/first_package_py' returned '0': PYTHONPATH=/root/ros2_ws/build/first_package_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/first_package_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_package_py build --build-base /root/ros2_ws/build/first_package_py/build install --record /root/ros2_ws/build/first_package_py/install.log --single-version-externally-managed install_data

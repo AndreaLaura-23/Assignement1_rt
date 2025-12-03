@@ -1,0 +1,22 @@
+[0.990s] Invoking command in '/root/ros2_ws/src/first_package_py': PYTHONPATH=/root/ros2_ws/build/first_package_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/first_package_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_package_py build --build-base /root/ros2_ws/build/first_package_py/build install --record /root/ros2_ws/build/first_package_py/install.log --single-version-externally-managed install_data
+[1.188s] running egg_info
+[1.200s] writing ../../build/first_package_py/first_package_py.egg-info/PKG-INFO
+[1.200s] writing dependency_links to ../../build/first_package_py/first_package_py.egg-info/dependency_links.txt
+[1.200s] writing entry points to ../../build/first_package_py/first_package_py.egg-info/entry_points.txt
+[1.201s] writing requirements to ../../build/first_package_py/first_package_py.egg-info/requires.txt
+[1.201s] writing top-level names to ../../build/first_package_py/first_package_py.egg-info/top_level.txt
+[1.228s] reading manifest file '../../build/first_package_py/first_package_py.egg-info/SOURCES.txt'
+[1.228s] writing manifest file '../../build/first_package_py/first_package_py.egg-info/SOURCES.txt'
+[1.229s] running build
+[1.229s] running build_py
+[1.229s] running install
+[1.234s] running install_lib
+[1.247s] running install_data
+[1.247s] running install_egg_info
+[1.269s] removing '/root/ros2_ws/install/first_package_py/lib/python3.12/site-packages/first_package_py-0.0.0-py3.12.egg-info' (and everything under it)
+[1.269s] Copying ../../build/first_package_py/first_package_py.egg-info to /root/ros2_ws/install/first_package_py/lib/python3.12/site-packages/first_package_py-0.0.0-py3.12.egg-info
+[1.271s] running install_scripts
+[1.364s] Installing Publisher script to /root/ros2_ws/install/first_package_py/lib/first_package_py
+[1.365s] Installing Subscriber script to /root/ros2_ws/install/first_package_py/lib/first_package_py
+[1.365s] writing list of installed files to '/root/ros2_ws/build/first_package_py/install.log'
+[1.405s] Invoked command in '/root/ros2_ws/src/first_package_py' returned '0': PYTHONPATH=/root/ros2_ws/build/first_package_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/first_package_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_package_py build --build-base /root/ros2_ws/build/first_package_py/build install --record /root/ros2_ws/build/first_package_py/install.log --single-version-externally-managed install_data

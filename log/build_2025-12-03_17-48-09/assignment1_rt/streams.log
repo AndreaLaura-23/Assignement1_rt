@@ -1,0 +1,26 @@
+[0.996s] Invoking command in '/root/ros2_ws/build/assignment1_rt': PYTHONPATH=/root/ros2_ws/build/assignment1_rt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/assignment1_rt/build --no-deps symlink_data
+[1.209s] running develop
+[1.337s] running egg_info
+[1.337s] creating assignment1_rt.egg-info
+[1.356s] writing assignment1_rt.egg-info/PKG-INFO
+[1.356s] writing dependency_links to assignment1_rt.egg-info/dependency_links.txt
+[1.356s] writing entry points to assignment1_rt.egg-info/entry_points.txt
+[1.356s] writing requirements to assignment1_rt.egg-info/requires.txt
+[1.356s] writing top-level names to assignment1_rt.egg-info/top_level.txt
+[1.357s] writing manifest file 'assignment1_rt.egg-info/SOURCES.txt'
+[1.388s] reading manifest file 'assignment1_rt.egg-info/SOURCES.txt'
+[1.388s] writing manifest file 'assignment1_rt.egg-info/SOURCES.txt'
+[1.402s] running build_ext
+[1.403s] Creating /root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages/assignment1-rt.egg-link (link to .)
+[1.403s] Installing node1 script to /root/ros2_ws/install/assignment1_rt/lib/assignment1_rt
+[1.404s] Installing node2 script to /root/ros2_ws/install/assignment1_rt/lib/assignment1_rt
+[1.405s] Installing turtle_spawn script to /root/ros2_ws/install/assignment1_rt/lib/assignment1_rt
+[1.405s] 
+[1.405s] Installed /root/ros2_ws/build/assignment1_rt
+[1.405s] running symlink_data
+[1.406s] creating /root/ros2_ws/install/assignment1_rt/share/ament_index
+[1.406s] creating /root/ros2_ws/install/assignment1_rt/share/ament_index/resource_index
+[1.406s] creating /root/ros2_ws/install/assignment1_rt/share/ament_index/resource_index/packages
+[1.406s] symbolically linking /root/ros2_ws/build/assignment1_rt/resource/assignment1_rt -> /root/ros2_ws/install/assignment1_rt/share/ament_index/resource_index/packages
+[1.406s] symbolically linking /root/ros2_ws/build/assignment1_rt/package.xml -> /root/ros2_ws/install/assignment1_rt/share/assignment1_rt
+[1.437s] Invoked command in '/root/ros2_ws/build/assignment1_rt' returned '0': PYTHONPATH=/root/ros2_ws/build/assignment1_rt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/assignment1_rt/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/assignment1_rt/build --no-deps symlink_data

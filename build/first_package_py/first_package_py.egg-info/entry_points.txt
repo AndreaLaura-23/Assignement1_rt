@@ -1,0 +1,3 @@
+[console_scripts]
+Publisher = first_package_py.Publisher:main
+Subscriber = first_package_py.Subscriber:main

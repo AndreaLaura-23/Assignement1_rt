@@ -1,0 +1,3 @@
+[console_scripts]
+Subscriber = turtlesim_controller.Subscriber:main
+WallBouncer = turtlesim_controller.WallBouncer:main
