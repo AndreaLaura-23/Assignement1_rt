@@ -1,0 +1,21 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# Colcon metadata
+.colcon/
+
+# MacOS junk
+.DS_Store
+
+# Temporary files
+*.swp
+*.swo
