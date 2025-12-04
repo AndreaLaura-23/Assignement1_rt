@@ -1,4 +1,0 @@
-[console_scripts]
-node1 = assignment1_rt.node1:main
-node2 = assignment1_rt.node2:main
-turtle_spawn = assignment1_rt.turtle_spawn:main
