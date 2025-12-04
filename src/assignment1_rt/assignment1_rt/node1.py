@@ -28,13 +28,22 @@ class UserControl(Node):
                 break
             print("Not valid choice.")
 
-        # Velocity
+        # Linear Velocity
         while True:
             try:
                 self.speed = float(input("Add linear velocity: "))
                 break
             except ValueError:
                 print(" The value not valid, retry.")
+
+        # Angular velocity
+        while True:
+            try:
+                self.angular_speed = float(input("Add angular velocity: "))
+                break
+            except ValueError:
+                print(" The value not valid, retry.")
+    
 
         # Create publisher
         topic_name = f"{self.robot_name}/cmd_vel"
@@ -43,7 +52,7 @@ class UserControl(Node):
     def execute_command(self):
         cmd = Twist()
         cmd.linear.x = self.speed
-        cmd.angular.z = 0.0
+        cmd.angular.z = self.angular_speed
 
         print(f"\nSend command to {self.robot_name} for 1 second...")
 
