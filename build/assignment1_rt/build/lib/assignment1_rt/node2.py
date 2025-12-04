@@ -32,15 +32,21 @@ class DistanceNode(Node):
         self.distance_pub = self.create_publisher(Float32, '/turtles_distance', 10)
 
         # Publisher (to stop the turtles)
-        self.cmd_pub_t1 = self.create_publisher(Twist, 'turtle1/cmd_vel', 10)
-        self.cmd_pub_t2 = self.create_publisher(Twist, 'turtle2/cmd_vel', 10)
+        self.pub_turtle1 = self.create_publisher(Twist, 'turtle1/cmd_vel', 10)
+        self.pub_turtle2 = self.create_publisher(Twist, 'turtle2/cmd_vel', 10)
 
         # we declare a timer
         self.timer = self.create_timer(0.1, self.timer_callback)
 
         self.get_logger().info("DistanceNode started.")
 
-
+    def stop_turtles(self, stop_turtle1: bool = False, stop_turtle2: bool = False):
+        stop_msg = Twist() 
+        if stop_turtle1:
+            self.pub_turtle1.publish(stop_msg)
+        if stop_turtle2:
+            self.pub_turtle2.publish(stop_msg)
+        
     def pose1_callback(self, msg: Pose):
         self.pose1 = msg
 
@@ -48,13 +54,13 @@ class DistanceNode(Node):
         self.pose2 = msg
 
 
-    def stop_turtles_boundary(self, stop_t1=True, stop_t2=True):
+    def stop_turtles_boundary(self, stop_turtle1=True, stop_turtle2=True):
         """Pubblish Twist null to stop the turtles."""
         stop_msg = Twist()
 
-        if stop_t1:
+        if stop_turtle1:
             self.t1_cmd_pub.publish(stop_msg)
-        if stop_t2:
+        if stop_turtle2:
             self.t2_cmd_pub.publish(stop_msg)
 
 
@@ -89,16 +95,16 @@ class DistanceNode(Node):
         # Control if the two turtle are too close
         if distance < self.min_distance:
             self.get_logger().warn(f"The two turtles are too close! Distance = {distance:.2f}, I stop the robot.")
-            self.stop_turtles(stop_t1=True, stop_t2=True)
+            self.stop_turtles(stop_turtle1=True, stop_turtle2=True)
 
         # Control if too close to the edge 
         if self.too_close_to_boundary(self.pose1):
             self.get_logger().warn(f"turtle one too close to the edge (x={self.pose1.x:.2f}, y={self.pose1.y:.2f}), I stop the turtle one.")
-            self.stop_turtles(stop_t1=True, stop_t2=False)
+            self.stop_turtles(stop_turtle1=True, stop_turtle2=False)
 
         if self.too_close_to_boundary(self.pose2):
             self.get_logger().warn(f"turtle two too close to the edge (x={self.pose2.x:.2f}, y={self.pose2.y:.2f}), I stop the turtle two.")
-            self.stop_turtles(stop_t1=False, stop_t2=True)
+            self.stop_turtles(stop_turtle1=False, stop_turtle2=True)
 
 
 def main(args=None):
