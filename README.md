@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Assignment 1: Two-Turtle Control System (ROS2)
 
 ## Description
@@ -36,8 +35,3 @@ ros2 run assignment1_rt node1.py
 ros2 run assignment1_rt node2.py
 ros2 run assignment1_rt turtle_spawn.py
 ```
-
-=======
-# Assignement1_rt
-First assignement of Research Track I
->>>>>>> a1e2efb (Initial commit)
