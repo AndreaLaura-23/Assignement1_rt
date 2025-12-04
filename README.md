@@ -1,2 +1,1 @@
-# Assignement1_rt
-First assignement of Research Track I
+# Assignement1 ROS2 Two-Turtle system control
