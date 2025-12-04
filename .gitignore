@@ -12,6 +12,7 @@ __pycache__/
 
 # Colcon metadata
 .colcon/
+.env
 
 # MacOS junk
 .DS_Store
